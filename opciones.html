@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	   <!-- Nuestro css-->
+    <link rel="stylesheet" type="text/css" href="static/css/index.css" th:href="@{/css/index.css}">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+	<title>Opciones de proyecto</title>
+</head>
+<body>
+	<div class="modal-dialog text-center">
+        <div class="col-md main-section">
+            <div class="modal-content">
+                <div class="col-12 user-img">
+                    <img src="static/img/opciones.jpg" th:src="@{/img/user.png}"/>
+                </div>
+                <div class="col-12">
+                    <h1>Opciones del proyecto</h1>
+                </div>
+                <div class="col-12">
+					<table class="table table-hover table-dark">
+					  <thead>
+					    <tr>
+					      <th scope="col">#</th>
+					      <th scope="col">Tabla</th>
+					      <th scope="col">Acciones</th>
+					      <th scope="col">Enlace</th>
+					    </tr>
+					  </thead>
+					  <tbody>
+					    <tr>
+					      <th scope="row">1</th>
+					      <td>Usuarios</td>
+					      <td>Agregar usuarios</td>
+					      <td><a class="btn btn-primary" href="usuarios.php">Ir a opción</a></td>
+					    </tr>
+					    <tr>
+					      <th scope="row">2</th>
+					      <td>Empresa</td>
+					      <td>Agregar Empresa</td>
+					      <td><a class="btn btn-primary" href="empresa.html">Ir a opción</a></td>
+					    </tr>
+					    <tr>
+					      <th scope="row">3</th>
+					      <td>Clientes</td>
+					      <td>Agregar clientes</td>
+					      <td><a class="btn btn-primary" href="clientes.html">Ir a opción</a></td>
+					    </tr>
+					    <tr>
+					      <th scope="row">4</th>
+					      <td>Productos</td>
+					      <td>Agregar productos</td>
+					      <td><a class="btn btn-primary" href="productos.php">Ir a opción</a></td>
+					    </tr>
+					    <tr>
+					      <th scope="row">4</th>
+					      <td>Créditos</td>
+					      <td></td>
+					      <td><a class="btn btn-primary" href="creditos.html">Ir a opción</a></td>
+					    </tr>
+					  </tbody>
+					</table>
+                </div>
+           
+
+            </div>
+        </div>
+    </div>
+</body>
+</html>
